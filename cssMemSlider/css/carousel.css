@@ -5,12 +5,6 @@
     overflow: hidden;
 }
 
-@media (max-width: 600px) {
-    .carousel-wrapper {
-        grid-column: span 1;
-    }
-}
-
 .carousel {
     width: max-content;
     height: 100%;
@@ -39,4 +33,19 @@
 
 .carousel-item:nth-child(4) {
     background-image: url('../assets/mem4.jpg');
+}
+
+@media (max-width: 600px) {
+    .carousel-wrapper {
+        grid-column: span 1;
+    }
+
+    .carousel {
+        column-gap: 5vw;
+    }
+
+    .carousel-item {
+        width: 80vw;
+        background-size: cover;
+    }
 }

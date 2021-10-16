@@ -34,3 +34,15 @@ input {
 #r4:checked ~ .indicators .indicator-label[for='r4'] .indicator::before {
     background-color: dimgray;
 }
+
+@media (max-width: 600px) {
+    #r2:checked ~ .carousel-wrapper .carousel {
+        transform: translateX(-85vw);
+    }
+    #r3:checked ~ .carousel-wrapper .carousel {
+        transform: translateX(-170vw);
+    }
+    #r4:checked ~ .carousel-wrapper .carousel {
+        transform: translateX(-255vw);
+    }
+}
