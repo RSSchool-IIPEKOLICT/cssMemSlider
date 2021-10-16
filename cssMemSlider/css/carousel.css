@@ -5,6 +5,12 @@
     overflow: hidden;
 }
 
+@media (max-width: 600px) {
+    .carousel-wrapper {
+        grid-column: span 1;
+    }
+}
+
 .carousel {
     width: max-content;
     height: 100%;

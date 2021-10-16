@@ -1,3 +1,7 @@
+input {
+    display: none;
+}
+
 #r1:checked ~ .carousel-wrapper .carousel {
     transform: translateX(0);
 }

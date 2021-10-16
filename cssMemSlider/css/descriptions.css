@@ -3,6 +3,12 @@
     overflow: hidden;
 }
 
+@media (max-width: 600px) {
+    .descriptions {
+        order: 2;
+    }
+}
+
 .description {
     min-width: calc(100% + 1px);
     display: inline;

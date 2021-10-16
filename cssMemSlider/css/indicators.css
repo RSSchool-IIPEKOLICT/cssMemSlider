@@ -3,6 +3,12 @@
     justify-content: flex-end;
 }
 
+@media (max-width: 600px) {
+    .indicators {
+        justify-content: center;
+    }
+}
+
 .indicator-label {
     width: 3vw;
     height: 3vw;
